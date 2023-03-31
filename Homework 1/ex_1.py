@@ -10,9 +10,9 @@ def onClick(event,x,y,flags,param):
             cv2.imshow('base img', img_copy)
 
 #load the two images
-base_img = cv2.imread(r'EX1\img\billboard.jpg')
+base_img = cv2.imread(r'Homework 1\img\billboard.jpg')
 img_copy = base_img.copy()
-img2 = cv2.imread(r'EX1\img\axolotl.jpg')
+img2 = cv2.imread(r'Homework 1\img\axolotl.jpg')
 #get images data
 base_h, base_w = base_img.shape[:2]
 img2_h, img2_w = img2.shape[:2]
